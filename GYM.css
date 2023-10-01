@@ -1,0 +1,520 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS FOR NAVBAR*/
+.navbar::before {
+    content: "";
+    background-color: #b34040;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#logo {
+    color: white;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+#logo img {
+    border-radius: 14px;
+    height: 30px;
+}
+
+#firstdiv {
+    text-align: center;
+}
+
+#thirddiv {
+    text-align: center;
+}
+
+#details ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+#details ul a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}
+
+#details ul a:hover {
+    border-bottom: 2px solid white;
+}
+
+#login {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 15px;
+    align-items: center;
+    flex-wrap: wrap;/
+}
+
+#login button {
+    padding: 5px 10px;
+    margin: 0px 30px;
+    font-size: larger;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 165px;
+}
+
+#login button:hover {
+    scale: 1.2;
+}
+
+#login p a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+#login p a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* CSS FOR WELCOMEPAGE */
+.para::before {
+    content: "";
+    background: url('images.png');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.para {
+    position: relative;
+    padding-bottom: 20px;
+    color: black
+}
+
+.para div {
+    padding-bottom: 30px;
+}
+
+.para h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.para h3 {
+    text-align: center;
+    padding: 0px 10px;
+}
+
+button {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    padding: 15px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    /* border-radius:5px; */
+}
+
+.btn:hover {
+    scale: 1.2;
+    background-color: blue;
+}
+
+/* CSS FOR SERVICES */
+#service #heading {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+#summary {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#summary h1 {
+    text-align: center;
+    color: white;
+}
+
+#summary #cardio {
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 13px;
+    background-color: black;
+}
+
+#cardio img {
+    width: 95%;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0px;
+}
+
+#summary #trans {
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 13px;
+    background-color: black;
+}
+
+#trans img {
+    width: 95%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#summary #zumba {
+    border: 2px solid black;
+    width: 30%;
+    border-radius: 13px;
+    background-color: black;
+}
+
+#zumba img {
+    width: 95%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:568px) {
+    #summary h1 {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:794px) {
+    #summary img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #summary img {
+        width: 85%;
+    }
+}
+
+/* CSS FOR OFFERS */
+#offer {
+    background-color: black;
+    color: white;
+}
+
+#offer h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+
+#offer p {
+    padding: 0px 10px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+
+/* CSS FOR WHYJOIN GRID1 GRID 2 */
+#whyjoin::before {
+    content: "";
+    background: url('b.png');
+    position: absolute;
+    height: 1080px;
+    width: 100%;
+    z-index: -3;
+}
+
+#whyjoin {
+    color: white;
+}
+
+#whyjoin h1 {
+    padding-top: 45px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#whyjoin h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#grid {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#grid1 {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#grid h4 {
+    text-align: center;
+    border-top: 3px solid white;
+    margin: 20px 0px;
+}
+
+#grid1 h4 {
+    text-align: center;
+    border-top: 3px solid white;
+    margin: 20px 0px;
+}
+
+#join {
+    padding: 10px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    margin-top: 50px;
+}
+
+#join:hover {
+    scale: 1.2;
+    background-color: blue;
+}
+
+@media screen and (max-width:605px) {
+    #grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #grid1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #whyjoin::before {
+        height: 2450px;
+    }
+
+    @media screen and (max-width:455px) {
+        #join {
+            font-size: medium;
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.row img {
+    border: 3px solid white;
+}
+
+.row1 img {
+    border: 3px solid white;
+}
+
+/* CSS FOR FRAME */
+
+#frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 80px 0px;
+    flex-wrap: wrap;
+}
+
+.framedata {
+    border: 2px solid black;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: #249ee7;
+}
+
+#frame h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#frame h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.framedata img {
+    width: 20%;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    padding-bottom: 5px;
+    opacity: 0.7;
+    z-index: -8;
+}
+
+.framedata div {
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width:690px) {
+    #frame {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .framedata {
+        margin: 20px;
+    }
+}
+
+/* CSS FOR  */
+#fullpage {
+    padding-bottom: 20px;
+}
+
+#fullpage img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#fullpage #theend {
+    position: relative;
+    top: 0;
+    padding-top: 400px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+}
+
+#fullpage button {
+    position: relative;
+    top: 0;
+    padding: 10px;
+    font-size: larger;
+    color: white;
+    background-color: black;
+    margin-left: 75px;
+}
+
+#fullpage button:hover {
+    scale: 1.2;
+    background-color: blue;
+}
+
+@media screen and (max-width:1030px) {
+    #fullpage {
+        display: none;
+    }
+}
+
+/* last CSS */
+#end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.call h2 {
+    color: darkorange;
+    padding: 9px 0px;
+}
+
+.call h3 {
+    color: white;
+}
+
+#secdiv h1 {
+    color: darkorange;
+    padding: 9px 0px;
+    font-size: xx-large;
+}
+
+#secdiv div {
+    padding: 15px 0px;
+}
+
+#secdiv button {
+    color: darkorange;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+    width: 80%;
+    font-size: large;
+    cursor: pointer;
+}
+
+#secdiv button:hover {
+    scale: 1.3;
+}
+
+#thirddivv h1 {
+    color: darkorange;
+    padding: 9px 0px;
+    font-size: xx-large;
+}
+
+#thirddivv div {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#thirddivv button {
+    color: darkorange;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+    width: 70%;
+    font-size: large;
+    cursor: pointer;
+}
+
+#thirddivv button:hover {
+    scale: 1.3;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+}
+
+@media screen and (max-width:390px) {
+   div footer {
+        font-size: medium;
+    }
+}

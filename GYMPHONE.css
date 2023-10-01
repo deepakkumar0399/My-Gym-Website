@@ -1,0 +1,19 @@
+.navbar {
+    flex-direction: column;
+}
+
+.navbar #logo {
+    text-align: center;
+}
+
+.navbar #details ul {
+    padding: 10px 0px;
+}
+
+.navbar #details ul {
+    flex-direction: column;
+}
+
+.navbar #login button {
+    margin: 0px;
+}
